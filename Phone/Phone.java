@@ -1,37 +1,40 @@
 
 public class Phone {
 	
-	//¹öÆ°°¹¼ö
+	//ë²„íŠ¼ê°¯ìˆ˜
 	int btnNum = 12;
-	//È­¸éÅ©±â
+	//í™”ë©´í¬ê¸°
 	int displaySize;
-	//ÀüÈ­¹øÈ£
+	//ì „í™”ë²ˆí˜¸
 	String number;
 	
-	//»ı¼ºÀÚ
-	//Å¬·¡½º¿¡ ´ëÇÑ Å©±â¸¦ ÁöÁ¤ÇÒ¶§ ÇÊµå°ªµµ °°ÀÌ ÁöÁ¤ÇÒ¼öÀÖ´Â ¸Ş¼Òµå
-	//Æ¯Â¡ : ¸®ÅÍ°ª ÀÚÃ¼°¡ ¾ø´Ù, ¸Ş¼Òµå ÀÌ¸§ÀÌ Å¬·¡½º ÀÌ¸§°ú °°´Ù
+	//ìƒì„±ì
+	//í´ë˜ìŠ¤ì— ëŒ€í•œ í¬ê¸°ë¥¼ ì§€ì •í• ë•Œ í•„ë“œê°’ë„ ê°™ì´ ì§€ì •í• ìˆ˜ìˆëŠ” ë©”ì†Œë“œ
+	//íŠ¹ì§• : ë¦¬í„°ê°’ ìì²´ê°€ ì—†ë‹¤, ë©”ì†Œë“œ ì´ë¦„ì´ í´ë˜ìŠ¤ ì´ë¦„ê³¼ ê°™ë‹¤
 	public Phone(int displaySize, String number) {
 		//super();
 		this.displaySize = displaySize;
 		this.number = number;
 	}
 	
-	//¹®ÀÚ¸¦ Àü¼ÛÇÑ´Ù
+	//ë¬¸ìë¥¼ ì „ì†¡í•œë‹¤
 	public void msgSend() {
-		System.out.println("¹®ÀÚ¸¦ Àü¼ÛÇÏ´Ù");
+		System.out.println("ë¬¸ìë¥¼ ì „ì†¡í•˜ë‹¤");
 	}
-	//ÀüÈ­¸¦ °É´Ù
+	
+	//ì „í™”ë¥¼ ê±¸ë‹¤
 	public void Call() {
-		System.out.println("ÀüÈ­¸¦ °É´Ù");
+		System.out.println("ì „í™”ë¥¼ ê±¸ë‹¤");
 	}
-	//ÀÎÅÍ³İ ¿¬°áÇÏ´Ù
+	
+	//ì¸í„°ë„· ì—°ê²°í•˜ë‹¤
 	public void Wifi() {
-		System.out.println("ÀÎÅÍ³İ ¿¬°á");
+		System.out.println("ì¸í„°ë„· ì—°ê²°");
 	}
-	//»çÁøÀ» Âï´Ù
+	
+	//ì‚¬ì§„ì„ ì°ë‹¤
 	public void Camera() {
-		System.out.println("»çÁøÀ» Âï´Ù");
+		System.out.println("ì‚¬ì§„ì„ ì°ë‹¤");
 	}
 	
 	
